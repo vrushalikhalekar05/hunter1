@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Dashboard"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/Vehicles"
+            android:icon="@drawable/ic_directions_bike_black_24dp"
+            android:title="Vehicle Search" />
+
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Profile" />
+        <item
+            android:id="@+id/ImportData"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="ImportData" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/action_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/action_Logout" />
+
+        </menu>
+    </item>
+
+</menu>

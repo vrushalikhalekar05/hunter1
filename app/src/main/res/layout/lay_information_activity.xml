@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"
+            app:titleTextColor="@color/white"
+            android:layout_height="?android:attr/actionBarSize"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            />
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                android:layout_marginBottom="70dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/AmoutLinear"
+                    android:visibility="gone"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    >
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:text="Finanace Name"
+                        android:textSize="15sp"
+                        android:textColor="#424242"
+                        android:layout_gravity="center"
+                        android:paddingLeft="2dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1sp"
+                        android:orientation="vertical" >
+                        <TextView
+                            android:id="@+id/FinanaceName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:text="L And T"
+                            android:textColor="@color/Black"
+                            android:padding="3dp"
+                            tools:ignore="TextFields" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:visibility="gone"
+                    android:layout_marginBottom="5dp">
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:text="Finanace Contact "
+                        android:textSize="15sp"
+                        android:textColor="#424242"
+                        android:paddingLeft="2dp"
+                        android:layout_gravity="center" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1sp"
+                        android:orientation="vertical" >
+                        <TextView
+                            android:id="@+id/Finanace_Contact"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:text="L And T"
+                            android:textColor="@color/Black"
+                            android:padding="3dp"
+                            tools:ignore="TextFields" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp">
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:text="Contact Number"
+                        android:textSize="15sp"
+                        android:textColor="#424242"
+                        android:paddingLeft="2dp"
+                        android:layout_gravity="center" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1sp"
+                        android:orientation="vertical" >
+                        <TextView
+                            android:id="@+id/ContactNumber"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:text="L And T"
+                            android:textColor="@color/Black"
+                            android:padding="3dp"
+                            tools:ignore="TextFields" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:visibility="gone"
+                    android:layout_marginBottom="5dp">
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:text="Branch"
+                        android:textSize="15sp"
+                        android:textColor="#424242"
+                        android:paddingLeft="2dp"
+                        android:layout_gravity="center" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1sp"
+                        android:orientation="vertical" >
+                        <TextView
+                            android:id="@+id/Branch"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:text="L And T"
+                            android:textColor="@color/Black"
+                            android:padding="3dp"
+                            tools:ignore="TextFields" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:visibility="gone"
+                    android:layout_marginBottom="5dp">
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:text="Agreement No"
+                        android:textSize="15sp"
+                        android:textColor="#424242"
+                        android:paddingLeft="2dp"
+                        android:layout_gravity="center" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1sp"
+                        android:orientation="vertical" >
+                        <TextView
+                            android:id="@+id/Agreementno"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:text="L And T"
+                            android:textColor="@color/Black"
+                            android:padding="3dp"
+                            tools:ignore="TextFields" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp">
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:text="Bkt"
+                        android:textSize="15sp"
+                        android:textColor="#424242"
+                        android:paddingLeft="2dp"
+                        android:layout_gravity="center" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1sp"
+                        android:orientation="vertical" >
+                        <TextView
+                            android:id="@+id/Bkt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:text="L And T"
+                            android:textColor="@color/Black"
+                            android:padding="3dp"
+                            tools:ignore="TextFields" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp">
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:text="Vehicle Maker"
+                        android:textSize="15sp"
+                        android:textColor="#424242"
+                        android:paddingLeft="2dp"
+                        android:layout_gravity="center" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1sp"
+                        android:orientation="vertical" >
+                        <TextView
+                            android:id="@+id/VehicleMaker"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:text="L And T"
+                            android:textColor="@color/Black"
+                            android:padding="3dp"
+                            tools:ignore="TextFields" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp">
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:text="Vehicle Model"
+                        android:textSize="15sp"
+                        android:textColor="#424242"
+                        android:paddingLeft="2dp"
+                        android:layout_gravity="center" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1sp"
+                        android:orientation="vertical" >
+                        <TextView
+                            android:id="@+id/VehicleModel"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:text="L And T"
+                            android:textColor="@color/Black"
+                            android:padding="3dp"
+                            tools:ignore="TextFields" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp">
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:text="Manufacturing Year"
+                        android:textSize="15sp"
+                        android:textColor="#424242"
+                        android:paddingLeft="2dp"
+                        android:layout_gravity="center" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1sp"
+                        android:orientation="vertical" >
+                        <TextView
+                            android:id="@+id/ManufacturingYear"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:text="L And T"
+                            android:textColor="@color/Black"
+                            android:padding="3dp"
+                            tools:ignore="TextFields" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp">
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:text="Engine No"
+                        android:textSize="15sp"
+                        android:textColor="#424242"
+                        android:paddingLeft="2dp"
+                        android:layout_gravity="center" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1sp"
+                        android:orientation="vertical" >
+                        <TextView
+                            android:id="@+id/EngineNo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:text="L And T"
+                            android:textColor="@color/Black"
+                            android:padding="3dp"
+                            tools:ignore="TextFields" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp">
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:text="Chasis No"
+                        android:textSize="15sp"
+                        android:textColor="#424242"
+                        android:paddingLeft="2dp"
+                        android:layout_gravity="center" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1sp"
+                        android:orientation="vertical" >
+                        <TextView
+                            android:id="@+id/ChasisNo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:text="L And T"
+                            android:textColor="@color/Black"
+                            android:padding="3dp"
+                            tools:ignore="TextFields" />
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp">
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:text="Region"
+                        android:textSize="15sp"
+                        android:textColor="#424242"
+                        android:paddingLeft="2dp"
+                        android:layout_gravity="center" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1sp"
+                        android:orientation="vertical" >
+                        <TextView
+                            android:id="@+id/Region"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:text="L And T"
+                            android:textColor="@color/Black"
+                            android:padding="3dp"
+                            tools:ignore="TextFields" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:visibility="gone"
+                    android:layout_marginBottom="5dp">
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:text="Posincr"
+                        android:textSize="15sp"
+                        android:textColor="#424242"
+                        android:paddingLeft="2dp"
+                        android:layout_gravity="center" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1sp"
+                        android:orientation="vertical" >
+                        <TextView
+                            android:id="@+id/Posincr"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:text="L And T"
+                            android:textColor="@color/Black"
+                            android:padding="3dp"
+                            tools:ignore="TextFields" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp">
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:text="Customer name"
+                        android:textSize="15sp"
+                        android:textColor="#424242"
+                        android:paddingLeft="2dp"
+                        android:layout_gravity="center" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1sp"
+                        android:orientation="vertical" >
+                        <TextView
+                            android:id="@+id/Customername"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:text="L And T"
+                            android:textColor="@color/Black"
+                            android:padding="3dp"
+                            tools:ignore="TextFields" />
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="25dp">
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:text="Customer Add"
+                        android:textSize="15sp"
+                        android:textColor="#424242"
+                        android:paddingLeft="2dp"
+                        android:layout_gravity="center" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1sp"
+                        android:orientation="vertical" >
+                        <TextView
+                            android:id="@+id/CustomerAdd"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:text="L And T"
+                            android:textColor="@color/Black"
+                            android:padding="3dp"
+                            tools:ignore="TextFields" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <TextView
+            android:id="@+id/Share"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text=""
+            android:textColor="@color/Black"
+            android:textSize="20dp"
+            android:paddingLeft="8sp"
+            android:paddingTop="5dp"
+            android:background="#FFE082"
+            android:gravity="center_vertical"
+            android:drawableLeft="@drawable/ic_whatsapp"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="2dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintVertical_bias="1.0" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
